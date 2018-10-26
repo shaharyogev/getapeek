@@ -1,65 +1,73 @@
-# getapeek
+# Getapeek
 Will give you the power to peek on the folders in your pc or server!
+<br>
+The simplest visual explorer for your pc or server, based on Node.js and React package for the best in-app visual effect with ease.
+This project is my first React app.
+The app won't do much if you want to control the files, but it will give you a great base for adding your one components and functionality. 
 
-The simplest visual explorer for your pc or server, based on Node.js and React package for the best in-app visual effect with ease. This project is my first React app. The app won't do much if you want to control the files, but it will give you a great base for adding your one components and functionality. 
+<br>
 
-  <div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/Bms9br8j_Bg?ecver=2" width="480" height="360" frameborder="0" allow="autoplay; encrypted-media" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+## Table of contents
+
+- [My code editor](#my-code-editor)
+- [Installing Node.js and React](#installing-node.js-and-react)
+- [Get to the fun part](#get-to-the-fun-part)
 
 
+##my-code-editor
 My code editor for the last  few months is VS Code (Microsoft) - https://code.visualstudio.com/
 It is really great, much better for me than Atom or Sublime (that I used in the past). 
 One of its better features is the multiple terminals option that you can start within the code editor itself. 
-
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/KREMmt45c0w?ecver=2" width="640" height="360" frameborder="0" allow="autoplay; encrypted-media" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+<br>
 
 In this repository folders, you will find the Node.js files and the React files.
 You will first have to install all the Node.js and React packages on your own.
-
+<br>
 If you don't have Node.js or React on your project folder you can continue with the following steps below (else skip to the fun part -> ):  
-
+<br>
 If you never installed Node.js on your pc go to - https://nodejs.org/en/  download and install it. 
-
+<br>
 In your Terminal ('command prompt' in windows) navigate to the folder that you will install the server and then the project in.
 [cd (folder name or full path) - will go to this folder, cd.. - will go back a folder)
-
+<br>
 Then follow the next few code lines:
-
+<br>
 first, install the express generator on your pc (great way to install a Node.js server) -
 	 ('sudo' if you on Linux) npm install -g express-generator
-
+<br>
 Make sure that you in the directory that you like to install the server in and write in the console -
 	express (new folder name)
-
+<br>
 install ejs if you like, we will use React so no ejs or any visual js needed -
 	express --view=ejs (the newly created folder name)
-
+<br>
 Navigate to the server folder itself
 	cd (the newly created folder name)
-
+<br>
 Write ( this will install all the dependencies ):
 	npm install
-
+<br>
 For this project, we need to install async, a great way to control asynchronous functions with ease. For more data - https://caolan.github.io/async/
 	npm install --save async
-
+<br>
 Add this code to the index.js file in the server routes folder.
 var async = require('async');
 
-
+<br>
 To start the server write -
-	npm start 
-or
+	npm start <br>
+or<br>
 	node bin/www
-
+<br>
 Now you have a Node.js server with express installed and active.
-
-To install React use a very simple way officially from the Facebook react team - 
-	sudo npm install create-react-app -g
-	create-react-app (A new folder with the project name)
-	cd (the newly created folder name)
-	npm start
-
-The fun part ->
+<br>
+To install React use a very simple way officially from the Facebook react team - <br>
+	sudo npm install create-react-app -g<br>
+	create-react-app (A new folder with the project name)<br>
+	cd (the newly created folder name)<br>
+	npm start<br>
+<br>
+The fun part -><br>
 If you have all this already installed on your machine don't repeat this process and copy the files in that exact order:
 
 <Project photo>
