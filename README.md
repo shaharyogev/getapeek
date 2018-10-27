@@ -7,7 +7,7 @@ This project is my first React app.
 The app won't do much if you want to control the files, but it will give you a great base for adding your one components and functionality. 
 
 
-![screenshot](Pc List React - Google Chrome.gif)
+![Pc List React - Google Chrome](Pc_List_React_-_Google_Chrome.gif)
 
 
 ## Table of contents
@@ -25,7 +25,7 @@ It is really great, much better for me than Atom or Sublime (that I used in the 
 One of its better features is the multiple terminals option that you can start within the code editor itself. 
 
 
-![screenshot](PcListData.js - getapeekserver - Visual Studio Code.gif)
+![PcListData.js - getapeekserver - Visual Studio Code](PcListData.js_-_getapeekserver_-_Visual_Studio_Code.gif)
 
 In this repository folders, you will find the Node.js files and the React files.
 You will first have to install all the Node.js and React packages on your own.
